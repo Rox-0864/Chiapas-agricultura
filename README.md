@@ -71,3 +71,21 @@ Genera los gráficos en `results/` y un `results/resumen.csv`.
 
 Los errores del proyecto original y sus correcciones están explicados en
 **[GUIA_DE_ESTUDIO.md](GUIA_DE_ESTUDIO.md)**.
+
+---
+
+## Modelo predictivo de producción
+
+Se agregó un análisis predictivo completo (serie estatal 1980–2025 y panel
+municipal 2003–2025, con variables climáticas ENSO, precio y superficie).
+Resultado central: **ningún modelo supera a la persistencia**; el signal real
+es sub-anual (clima) y las decisiones humanas (pastos→ganadería, palma→commodity).
+
+Detalles, resultados y cómo reproducir en
+**[INFORME_PREDICTIVO.md](INFORME_PREDICTIVO.md)**.
+
+```
+data/            # datasets + forecast
+scripts/         # forecast_estatal.py, escenarios.py, model_*.py, enso.py
+INFORME_PREDICTIVO.md
+```
